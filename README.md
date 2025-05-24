@@ -1,6 +1,7 @@
 # 💳 Credit Card Fraud Detection
 
-Bu proje, kredi kartı işlemlerinde gerçekleşen sahtekarlıkların (fraud) tespiti için çeşitli gözetimli makine öğrenmesi algoritmalarını karşılaştırmalı olarak incelemektedir. Veri seti dengesiz olduğu için SMOTE tekniği ile azınlık sınıf dengelemesi uygulanmış ve modeller bu dengeli eğitim verisi ile eğitilmiştir.
+Bu proje, Akbank tarafından düzenlenen Makine Öğrenmesine Giriş Bootcamp’i kapsamında gerçekleştirilmiştir.
+Amaç, kredi kartı işlemlerinde gerçekleşen sahtekarlıkların tespiti için farklı makine öğrenmesi algoritmalarını karşılaştırmak ve en uygun modeli belirlemektir.
 
 ---
 
@@ -58,7 +59,7 @@ Veri setinde sahte işlemler, toplam işlemlerin yalnızca çok küçük bir kı
 
 Her modelin fraud sınıfı için F1-score performansı:
 
-![F1 Score Karşılaştırması](figures/f1-score.png)
+![F1 Score Karşılaştırması](figures/f1-scor.png)
 
 ---
 
@@ -66,7 +67,7 @@ Her modelin fraud sınıfı için F1-score performansı:
 
 Modelin sahte ve gerçek işlemleri nasıl sınıflandırdığını aşağıdaki matrix göstermektedir:
 
-![Confusion Matrix](figures/confusionmatrix_rf.png)
+![Confusion Matrix](figures/confusionmatrix.png)
 
 ---
 
